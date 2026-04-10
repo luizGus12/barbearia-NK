@@ -1,0 +1,45 @@
+Estrutura do site :
+
+titulo = Barbearia NK | barbearia em bonfim mg
+primeira parte :
+
+-logo
+-um menu simples
+-uma imagem de fundo no header de barbearia
+-imagem que diz : "Barbearia de alto nivel em Bonfim MG"
+-botões que levam ao chat de agendamento
+-botao com direconamento a "entrar em contato"
+*fazer animação
+
+.segunda parte :
+
+-seção com botões de whatsapp  , botão de direcionamento ao instagram da barbearia , botão para clicar e levar ate a localização
+
+.terceira parte : 
+-um pequeno texto sobre a barbearia;gerado por ia de forma premium;
+
+.quarta parte : 
+-cards animados que contem os serviços oferecidos pela barbearia : 
+
+-corte
+-corte navalhado/shaver
+-barba
+-combo corte+sombrancelha
+-super combo corte,barba + sombrancelha
+-apenas pezinho
+-sombrancelha
+-hidratação
+-pigmentação
+-nevou
+
+
+.quinta parte :
+-seção com um slider 3D com modelo dos clientes;
+
+.sexta parte : 
+-footer com localização ,endereço e mais 
+
+
+-----------------------------------------------------------------------------------------------------------
+
+linguagens html , css e javascript
