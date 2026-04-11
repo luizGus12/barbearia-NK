@@ -1,12 +1,12 @@
 //vamos animar a parte do do serviços
+const callModal = document.querySelector(".popup")
 function animateServicos(elemento){
 
 
 
 
-  const callModal = document.querySelector(".popup")
-  const clickServ = document.querySelectorAll("#img");
-  const exit = document.querySelector("#exit-btn");
+  
+  
   const popupImg = document.querySelector("#img-popup")
   
    //pegar o src da imagem
@@ -14,26 +14,25 @@ function animateServicos(elemento){
    console.log(valElem);
 
    popupImg.setAttribute( 'src' ,valElem);
-
-  clickServ.forEach((image) =>{
-    image.addEventListener('click',function(){
-      callModal.style.display = "flex";  //continuar a dar imagem ao pop-up
-    })
-  })
-
-  exit.addEventListener('click', ()=>{
-
-    callModal.style.display = "none";
+   callModal.style.display = "flex";  //continuar a dar imagem ao pop-up
     
-})
 
 
-  
+
+
+
    
   
 
 
 }
+const exit = document.querySelector("#exit-btn");
+
+exit.addEventListener('click', ()=>{
+
+    callModal.style.display = "none";
+    
+})
 
 
 function animateheader(){
@@ -112,8 +111,4 @@ const observer = new IntersectionObserver((entries) => {
 elements.forEach((el) => observer.observe(el));
 
 updateSlider();
-
-
-
-
 animateheader();

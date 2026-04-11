@@ -25,29 +25,46 @@ body{
 
 header{
     width: 100%;
-    height: 59vh;
-    background-image: url('../imagens/background-header.jpg');
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
+    min-height: 80vh;
     padding: 5px;
+    position: relative;
+}
+.contain-header-img{
+    width: 100%;
+    height: 90%;
+    background-image: url('../imagens/header-img.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+}
+
+header img,
+header h2,
+header a {
+    position: relative;
+    z-index: 1;
+    text-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
 }
 
 .logo {
   width: 180px; /* ajusta aqui */
   height: auto;
+  
 }
-header h2{
+#classBarber{
+    padding-top: 50px;
     color: white;
-    padding: 10px;
-
 }
-/* #classBarber{
-    padding-top: 100px;
-    
-} */
+
 #city{
-    padding-bottom: 50px;
+    padding-top: 20px;
     padding-left: 15px;
+    color: white;
+
 }
 
 header a{
@@ -55,8 +72,9 @@ header a{
     text-decoration: none;
     color: white;
     display: block;
-    width: 130px;
-    margin: 13px 20px;
+    width: 150px;
+    text-align: center;
+    
 
 
 }
@@ -65,16 +83,19 @@ header a{
 #agendar {
     color: black;
     background-color: white;
+    margin-top: 60px;
+    margin-left: 20px;
 }
 #contato{
     background-color: transparent;
     border: 1px solid white;
     border-radius: 2px;
+    margin: 20px 20px;
 }
 
 .whatsapp-button {
     position: fixed;
-    bottom: 15px;
+    bottom: 38px;
     right: 15px; /* mais no canto */
     background-color: #25D366;
     color: white;
@@ -116,7 +137,8 @@ header a{
 
 .helpers{
     padding: 20px;
-    box-shadow: 0 3px 0 #2A2A2A;
+    
+    
 }
 
  
@@ -134,6 +156,7 @@ header a{
     color: #7C3AED;
     font-size: 26px;
     cursor: pointer;
+    box-shadow: 0 1px 0 #2A2A2A;
 }
 
 
@@ -154,6 +177,11 @@ header a{
 .sobre .container p{
     color: #949393;
     padding-top: 10px;
+    
+}
+.sobre .container h3{
+    text-align: center;
+
 }
 
 .servicos{
@@ -176,7 +204,7 @@ header a{
 }
 .card{
     width: 90%;
-    max-width: 250px;
+    max-width: 320px;
     height: 130px;
     border-radius: 5px;
     border: 1px solid #3d3d3d;
@@ -209,6 +237,7 @@ header a{
 .contain-functions p{
     
     color: #ccc;
+    padding-left: 5px;
 
 }
 .contain-functions a{
@@ -289,14 +318,17 @@ header a{
     color: white;
     font-size: 29px;
 }
-#right{
-    float: right;
-    padding-right: 30px;
+.control-direction {
+    margin: 20px;
+    width: 90%;
+    max-width: 1000px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+    
 }
-#left{
-    float: left;
-    padding-left: 30px;
-}
+
+
 .slider-contain .container{
     position: relative;
     width: 100%;
@@ -311,6 +343,7 @@ header a{
     font-size: 30px;
     color:#616060;
     position: absolute;
+    text-align: center;
 }
 
 .gallery{
@@ -339,6 +372,7 @@ header a{
     align-items: center;
     justify-content: center;
     
+    
 }
 .item img{
     width: 100%;
@@ -346,14 +380,18 @@ header a{
     object-fit: cover;
     border-radius: 6px;
 }
-.item p{
+.rate-us{
     position: absolute;
-    color: #949393;
+    width: 100%;
     top: 260px;
-    /* text-align: center;
-    padding-left: 14px; */
-    display: none;
+    text-align: center;
+    padding-left: 4px; 
+    
 
+}
+.rate-us p{
+    color: #949393;
+    display: none;
 }
 
 /* item central (principal) */
@@ -443,16 +481,15 @@ header a{
       padding: 10px;
 
 }
-    header a{
-        display: inline;
-    }
+    
     #classBarber{
-      padding-top: 50px;
+      
       padding-left: 60px;
     
 }
     #city{
     padding-left: 70px;
+    padding-bottom: 60px;
 }
     header button{
       margin: 30px 50px;
@@ -485,12 +522,44 @@ header a{
     top: 320px;
     
     
+    
 
 }
+  .rate-us{
+    top: 310px;
+  }
+}
+@media screen and (min-width:620px){
+
+    .contain-header-img{
+       position: absolute;
+       height: 90%;
+       width: 47%;
+       max-width: 480px;
+       top: 15px;
+       right: 15px;
+       
+}
+
+    header{
+        height: 70vh;
+    }
 }
 
 /* DESKTOP */
 @media (min-width: 768px) {
+        header a{
+        display: inline-block;
+        
+    }
+
+    .contain-header-img{
+       
+       top: 40px;
+       right: 80px;
+       
+}
+    
     .footer-container {
         flex-direction: row;
         justify-content: space-between;
@@ -502,4 +571,29 @@ header a{
     .footer-info p {
         font-size: 14px;
     }
+}
+@media screen and (min-width:900px){
+
+
+    header{
+        height: 90vh;
+    }
+        header a{
+        display: inline-block;
+        
+        
+    }
+    #agendar{
+        margin-left: 70px;
+    }
+    #classBarber{
+      
+      padding-left: 80px;
+      padding-top: 90px;
+    
+}
+    #city{
+       padding-left: 90px;
+      padding-bottom: 80px;
+}
 }
