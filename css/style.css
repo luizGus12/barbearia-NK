@@ -87,8 +87,9 @@ header a{
     margin-left: 20px;
 }
 #contato{
-    background-color: transparent;
-    border: 1px solid white;
+    background-color: black;
+    color: white;
+    /* border: 1px solid white; */
     border-radius: 2px;
     margin: 20px 20px;
 }
@@ -156,7 +157,7 @@ header a{
     color: #7C3AED;
     font-size: 26px;
     cursor: pointer;
-    box-shadow: 0 1px 0 #2A2A2A;
+    
 }
 
 
