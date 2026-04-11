@@ -310,6 +310,7 @@ header a{
 .slider-client{
     width: 100%;
     border-bottom: 4px solid #2A2A2A;
+    text-align: center;
 }
 
 
@@ -344,7 +345,7 @@ header a{
     font-size: 30px;
     color:#616060;
     position: absolute;
-    text-align: center;
+    
 }
 
 .gallery{
