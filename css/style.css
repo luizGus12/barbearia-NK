@@ -54,7 +54,7 @@ header a {
 }
 
 #classBarber {
-    padding-top: 50px;
+    padding-top: 140px;
     color: white;
 }
 
@@ -312,13 +312,12 @@ header a {
     margin: 50px auto;
     overflow: hidden;
     border-radius: 10px;
+    text-align: center;
 }
 
 .slider-contain .container h2 {
     position: absolute;
     top: 58px;
-    left: 50%;
-    transform: translateX(-50%);
     font-size: 30px;
     color: #616060;
     text-align: center;
