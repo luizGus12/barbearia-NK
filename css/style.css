@@ -22,14 +22,14 @@ body {
 
 header {
     width: 100%;
+    height: 105vh;
     padding: 5px;
     position: relative;
-    height: 90vh;
 }
 
 .contain-header-img {
     width: 100%;
-    height: 100%;
+    height: 90%;
     background-image: url('../imagens/header-img.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -37,7 +37,7 @@ header {
     position: absolute;
     top: 0;
     right: 0;
-    
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
 }
 
 header img,
@@ -316,14 +316,13 @@ header a {
 
 .slider-contain .container h2 {
     position: absolute;
-    top: 60px;
+    top: 58px;
     left: 50%;
     transform: translateX(-50%);
+    font-size: 30px;
+    color: #616060;
     text-align: center;
-    width: 100%;
-    color: #949494;
 }
-
 .gallery {
     position: relative;
     height: 400px;
@@ -433,12 +432,6 @@ header a {
 }
 
 /* responsividade */
-
-@media screen and (min-width: 420px){
-    header{
-        height: 100vh;
-    }
-}
 @media screen and (min-width: 580px) {
 
 
@@ -492,23 +485,20 @@ header a {
 }
 
 @media screen and (min-width: 620px) {
-    header{
-        height: 85vh;
-    }
     .contain-header-img {
         position: absolute;
-        height: 90%;
+        height: 70vh;
         width: 47%;
         max-width: 480px;
         top: 15px;
         right: 15px;
-        height: 90vh;
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
     }
-    }
-
+}
 
 @media (min-width: 768px) {
+    header{
+        height: 90vh;
+    }
     header a {
         display: inline-block;
     }
@@ -516,6 +506,7 @@ header a {
     .contain-header-img {
         top: 40px;
         right: 80px;
+        height: 90%;
     }
 
     .footer-container {
