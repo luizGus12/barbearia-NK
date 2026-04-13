@@ -311,7 +311,7 @@ header a {
 }
 
 .slider-contain .container {
-    position: relative;
+ 
     width: 100%;
     max-width: 700px;
     margin: 50px auto;
@@ -322,10 +322,7 @@ header a {
 
 .slider-contain .container h2 {
     
-    top: 45px;
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
+    top: 90px;
     font-size: 30px;
     color: #616060;
     text-align: center;
