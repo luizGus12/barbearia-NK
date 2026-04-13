@@ -22,7 +22,7 @@ body {
 
 header {
     width: 100%;
-    height: 105vh;
+    height: 88vh;
     padding: 5px;
     position: relative;
 }
@@ -34,6 +34,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    background-position: top center;
     position: absolute;
     top: 0;
     right: 0;
@@ -70,6 +71,7 @@ header a {
     color: white;
     display: block;
     width: 150px;
+    height: 40px;
     text-align: center;
 }
 
@@ -189,7 +191,10 @@ header a {
     border: 1px solid #3d3d3d;
     background-color: #2A2A2A;
     display: flex;
-    padding: 5px;
+    padding-top: 5px;
+    padding-left: 20px;
+    
+    
 }
 
 .card-img {
@@ -288,6 +293,7 @@ header a {
     width: 100%;
     border-bottom: 4px solid #2A2A2A;
     text-align: center;
+    
 }
 
 #right,
@@ -311,13 +317,16 @@ header a {
     max-width: 700px;
     margin: 50px auto;
     overflow: hidden;
-    border-radius: 10px;
     text-align: center;
+    
 }
 
 .slider-contain .container h2 {
+    
+    top: 45px;
     position: absolute;
-    top: 58px;
+    left: 50%;
+    transform: translateX(-50%);
     font-size: 30px;
     color: #616060;
     text-align: center;
@@ -325,6 +334,7 @@ header a {
 .gallery {
     position: relative;
     height: 400px;
+    background-color: white;
 }
 
 .item {
@@ -431,6 +441,13 @@ header a {
 }
 
 /* responsividade */
+ @media screen and (min-width: 430px){
+    header{
+        height: 120vh;
+    }
+
+} 
+
 @media screen and (min-width: 580px) {
 
 
@@ -484,6 +501,7 @@ header a {
 }
 
 @media screen and (min-width: 620px) {
+
     .contain-header-img {
         position: absolute;
         height: 70vh;
