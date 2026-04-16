@@ -22,21 +22,21 @@ primeira parte :
 -cards animados que contem os serviços oferecidos pela barbearia : 
 
 -corte
--corte navalhado/shaver
 -barba
--combo corte+sombrancelha
--super combo corte,barba + sombrancelha
--apenas pezinho
+-barbo terapia
 -sombrancelha
 -hidratação
--pigmentação
--nevou
+-limpeza de pele
+-pigmentação / luzes / nevou
+-plano mensal
 
+.quinta parte
+-seção do plano mensal
 
-.quinta parte :
+.sexta parte :
 -seção com um slider 3D com modelo dos clientes;
 
-.sexta parte : 
+.setima parte : 
 -footer com localização ,endereço e mais 
 
 

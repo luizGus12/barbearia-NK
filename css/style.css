@@ -24,7 +24,12 @@ header {
     width: 100%;
     height: 88vh;
     padding: 5px;
-    position: relative;
+    background-image: url('../imagens/header-img.jpg');
+    background-position: center;
+    background-size: cover;
+    
+    
+    
 }
 
 .contain-header-img {
@@ -35,10 +40,10 @@ header {
     background-size: cover;
     background-position: center;
     background-position: top center;
-    position: absolute;
-    top: 0;
-    right: 0;
+    float: right;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.6);
+    display: none;
+    
 }
 
 header img,
@@ -191,8 +196,8 @@ header a {
     border: 1px solid #3d3d3d;
     background-color: #2A2A2A;
     display: flex;
-    padding-top: 5px;
-    padding-left: 20px;
+    
+    
     
     
 }
@@ -201,6 +206,7 @@ header a {
     width: 130px;
     min-height: 100%;
     border-radius: 4px;
+    left: 0;
 }
 
 .card-img img {
@@ -221,9 +227,10 @@ header a {
 
 .contain-functions p {
     color: #ccc;
-    padding-left: 5px;
+    padding-left: 10px;
+    padding-top: 20px;
 }
-
+.btn-assinar a,
 .contain-functions a {
     padding: 7px;
     border-radius: 4px;
@@ -233,6 +240,9 @@ header a {
     background-color: #7C3AED;
     color: white;
     text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .contain-functions button a {
@@ -285,6 +295,48 @@ header a {
 #exit-btn:hover {
     color: red;
     transform: translateX(10%);
+}
+
+.plano-mensal
+{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 4px solid #2A2A2A;
+}
+.plano-mensal .container{
+    width: 90%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+
+.assinar-img{
+    width: 100%;
+    max-width: 300px; 
+    height: 300px;
+    background-image: url('../imagens/planos.png');
+    background-size: cover;
+    background-position: center;
+}
+.btn-assinar
+{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.btn-assinar a{
+    height: 40px;
+    width: 180px;
+    font-size: 20px;
+
 }
 
 /* slider cliente */
@@ -440,11 +492,16 @@ header a {
  @media screen and (min-width: 430px){
     header{
         height: 120vh;
+    
     }
 
 } 
 
 @media screen and (min-width: 580px) {
+
+    header{
+        background: none;
+    }
 
 
     header h2 {
@@ -461,8 +518,10 @@ header a {
         padding-bottom: 60px;
     }
 
-    header button {
-        margin: 30px 50px;
+   
+    .contain-header-img {
+        
+        display: block;
     }
 
     .helpers {
@@ -499,12 +558,12 @@ header a {
 @media screen and (min-width: 620px) {
 
     .contain-header-img {
-        position: absolute;
+        
         height: 70vh;
         width: 47%;
         max-width: 480px;
-        top: 15px;
-        right: 15px;
+        margin-top: 15px;
+        margin: 15px;
     }
 }
 
@@ -517,8 +576,8 @@ header a {
     }
 
     .contain-header-img {
-        top: 40px;
-        right: 80px;
+        margin-top: 40px;
+        margin-right: 80px;
         height: 90%;
     }
 
