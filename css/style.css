@@ -55,8 +55,8 @@ header a {
 }
 
 .logo {
-    width: 180px;
-    height: auto;
+    width: 200px;
+    height: 160px;
 }
 
 #classBarber {
@@ -556,6 +556,9 @@ header a {
 }
 
 @media screen and (min-width: 620px) {
+    header{
+        height: 100vh;
+    }
 
     .contain-header-img {
         
