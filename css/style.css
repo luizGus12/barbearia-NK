@@ -491,7 +491,7 @@ header a {
 /* responsividade */
  @media screen and (min-width: 430px){
     header{
-        height: 120vh;
+        height: 160dvh;
     
     }
 
@@ -558,7 +558,7 @@ header a {
 
 @media screen and (min-width: 620px) {
     header{
-        height: 100vh;
+        
         background: none;
     }
        
