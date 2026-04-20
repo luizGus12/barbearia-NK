@@ -22,9 +22,9 @@ body {
 
 header {
     width: 100%;
-    height: auto;
+    min-height: 620px;
     padding: 5px;
-    background-image: url('../imagens/header-img.jpg');
+    background-image: url('../imagens/header-img.jpg'); 
     background-position: center;
     background-size: cover;
     background-color: red;
@@ -489,14 +489,7 @@ header a {
     transform: translateY(0);
 }
 
-/* responsividade */
- /* @media screen and (min-width: 430px){
-    header{
-        height: 630px;
-    
-    } 
 
-}*/
 
 @media screen and (min-width: 580px) {
 
