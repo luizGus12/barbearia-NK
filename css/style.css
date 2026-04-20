@@ -499,10 +499,11 @@ header a {
 
 @media screen and (min-width: 580px) {
 
-    header{
-        background: none;
-    }
 
+    header h2,
+    header a {
+        max-width: 50%;
+    }
 
     header h2 {
         color: white;
@@ -516,12 +517,12 @@ header a {
     #city {
         padding-left: 70px;
         padding-bottom: 60px;
-    }
+    } 
 
    
     .contain-header-img {
         
-        display: block;
+        display: none;
     }
 
     .helpers {
@@ -558,10 +559,12 @@ header a {
 @media screen and (min-width: 620px) {
     header{
         height: 100vh;
+        background: none;
     }
-
+       
     .contain-header-img {
         
+        display: block;
         height: 70vh;
         width: 47%;
         max-width: 480px;
@@ -600,11 +603,10 @@ header a {
 @media screen and (min-width: 900px) {
     header a {
         display: inline-block;
+        margin-left: 80px;
     }
 
-    #agendar {
-        margin-left: 70px;
-    }
+     
 
     #classBarber {
         padding-left: 80px;
