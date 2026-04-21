@@ -27,7 +27,7 @@ header {
     background-image: url('../imagens/header-img.jpg'); 
     background-position: center;
     background-size: cover;
-    background-color: red;
+    
     
     
     
@@ -72,13 +72,16 @@ header a {
 }
 
 header a {
-    padding: 9px;
+    
     text-decoration: none;
     color: white;
     display: block;
     width: 150px;
     height: 40px;
-    text-align: center;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
 }
 
 #agendar {
@@ -91,13 +94,12 @@ header a {
 #contato {
     background-color: black;
     color: white;
-    border-radius: 2px;
     margin: 20px 20px;
 }
 
 .whatsapp-button {
     position: fixed;
-    bottom: 38px;
+    bottom: 80px;
     right: 15px;
     background-color: #25D366;
     color: white;
