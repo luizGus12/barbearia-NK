@@ -46,7 +46,7 @@ linguagens html , css e javascript
 
 -----------------------------------------------------------------------------------
 bugs a serem corrigidos:
--alinhamento do texto dentro do slider , usamos o position absolute para manipula-lo ,mas não funciona ;status : em fase de testes
--reestilizar o tamanho do  header e olhar se os botões tem o tamanho certo ; status : em fase de testes
--olhar a questão de espaçamento de texto dentro dos cards ; analise : em fase de testes
+-alinhamento do texto dentro do slider , usamos o position absolute para manipula-lo ,mas não funciona ;status : resolvido
+-reestilizar o tamanho do  header e olhar se os botões tem o tamanho certo ; status : resolvido
+-olhar a questão de espaçamento de texto dentro dos cards ; analise : resolvido
 

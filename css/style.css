@@ -93,6 +93,7 @@ header a {
     line-height: 40px; /* centraliza vertical */
     text-align: center; /* centraliza horizontal */
     white-space: nowrap; /* impede quebra de linha */
+    padding: 0 5px;
     
 }
 
@@ -156,6 +157,7 @@ header a {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 .helpers .container i {
