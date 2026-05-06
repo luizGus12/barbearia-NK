@@ -4,7 +4,7 @@
 
 Site institucional desenvolvido para a Barbearia NK, com o objetivo de aumentar a presença digital, atrair novos clientes e oferecer uma experiência moderna e prática para agendamentos.
 
-https://luizgus12.github.io/barbearia-NK/
+https://barbeariank.com.br
 
 🚀 Objetivo
 
